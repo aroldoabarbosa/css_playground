@@ -1,3 +1,16 @@
-h1  {
-    color:rgb(0, 255, 242)
+html { font-size: 10px;
 }
+
+div {
+    font-size: 10em;
+}
+
+
+
+
+h1  {
+    color:#ea00ff;
+    font-size: 3rem;
+    background-color: mediumaquamarine;
+    width: 20%;
+}S
