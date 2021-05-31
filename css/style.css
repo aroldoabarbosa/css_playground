@@ -29,10 +29,17 @@ text-transform: uppercase;
 }
 ul{
     font-size: 40px;
-    list-style: none;
+    list-style: nome;
 }
 ol{
     font-size: 50px;
     list-style: upper-latin;
     margin-left: 40px;
+}
+
+.conteudo{
+    margin-left: 2rem;
+}
+#titulo-principal{
+    margin-left: 5rem;
 }
