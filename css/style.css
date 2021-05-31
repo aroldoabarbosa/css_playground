@@ -1,16 +1,38 @@
-html { font-size: 10px;
-}
-
-div {
-    font-size: 10em;
-}
-
-
-
-
 h1  {
     color:#ea00ff;
     font-size: 3rem;
     background-color: mediumaquamarine;
-    width: 20%;
-}S
+  /*border: 9px dotted gray;*/
+  border-width: 9px;
+  border-style: dotted;
+  border-color: gray;
+ }
+
+ /*FORMATACAO DOS TITULOS*/
+ h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    border: 3px solid blue;
+    width: 50%;
+}
+p{
+    background-color:black;
+    color: white;
+}
+span {
+font-size: 40px;
+font-family: "comic Sans MS";
+color: yellow;
+text-decoration: underline;
+text-transform: uppercase;
+}
+ul{
+    font-size: 40px;
+    list-style: none;
+}
+ol{
+    font-size: 50px;
+    list-style: upper-latin;
+    margin-left: 40px;
+}
