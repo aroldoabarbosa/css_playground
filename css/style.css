@@ -1,12 +1,4 @@
-h1  {
-    color:#ea00ff;
-    font-size: 3rem;
-    background-color: mediumaquamarine;
-  /*border: 9px dotted gray;*/
-  border-width: 9px;
-  border-style: dotted;
-  border-color: gray;
- }
+
 
  /*FORMATACAO DOS TITULOS*/
  h2{
@@ -41,5 +33,16 @@ ol{
     margin-left: 2rem;
 }
 #titulo-principal{
+    Explicando cascade e especi
     margin-left: 5rem;
+}
+/*Explicando cacade e Especificidade*/
+.titulo-pagina{
+    font-size: 5rem;
+    border: 5px solid red;
+    color: red;
+}
+.titulo{
+    color: green;
+    border-style: dashed
 }
