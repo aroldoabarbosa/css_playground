@@ -33,16 +33,39 @@ ol{
     margin-left: 2rem;
 }
 #titulo-principal{
-    Explicando cascade e especi
     margin-left: 5rem;
 }
 /*Explicando cacade e Especificidade*/
+/* 0 - 2 - 0 */
+.titulo.titulo-pagina{
+    color: purple;
+}
+/* 1 - 0 - 0*/
+#titulo-principal{
+    color:aquamarine;
+    
+}
+
 .titulo-pagina{
-    font-size: 5rem;
+    font-size: 5rem; 
     border: 5px solid red;
-    color: red;
+    color: black;
+   margin-left: 4rem;
 }
+/* 0 - 1 - 0*/
+
 .titulo{
-    color: green;
-    border-style: dashed
+    color:#768076;
+    border-style: dashed;
+    margin-left: 0rem;
 }
+/* 0 - 0 - 1*/
+h1{ 
+    color: blue
+    /* 1 - 0 - 0 - 1*/
+   /* color: blue! important;*/
+}
+/*
+Regras de especificidade
+0 - 2 - 1
+*/
