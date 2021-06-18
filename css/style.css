@@ -69,3 +69,78 @@ h1{
 Regras de especificidade
 0 - 2 - 1
 */
+.titulo-generico{
+
+font-size: 40px;
+color: red
+}
+
+.container-exemplo .titulo-generico{
+    font-size: 80px;
+    color: black
+
+}
+.meu-link{
+font-size:30px;
+text-decoration: none;
+
+    }
+
+    .meu-link:hover{
+        font-size:40px;
+        text-decoration: underline;
+    }
+    .meu-link:link{
+        color: green;
+    }
+    .meu-link:visited{
+color: rgb(255, 123, 0)
+    }
+    .meu-link:active{
+        font-size: 60px;
+        color:red;
+    }
+    .meu-link:focus{
+  font-size: 90px;
+     color:purple;
+    }
+
+    .meu-input {
+        background-color: gray;
+        font-size: 50px;
+        color:white;
+    }
+    .meu-input[type="number"] {
+    
+        font-size: 90px;
+        background-color: red;
+    }
+
+    .meu-input:focus {
+background-color: white;
+color: black;
+    }
+
+    .nav-menu {
+border:2px solid blue;
+list-style: none;
+    }
+    .menu-item {
+border: 2px dashed purple;
+background-color: grey;
+margin-bottom: 20px;
+    }
+    .menu-item:last-child {
+margin-bottom: 0px;
+
+    }
+    .menu-item:first-child {
+       color:red;
+        
+            }
+            .menu-item:nth-child(3){
+                background-color: green;
+            }
+            .menu-item:nth-child(n + 2){
+                font-weight: bold;
+            }
