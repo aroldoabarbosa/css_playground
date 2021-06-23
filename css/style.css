@@ -12,12 +12,7 @@ p{
     background-color:black;
     color: white;
 }
-span {
-font-size: 40px;
-font-family: "comic Sans MS";
-color: yellow;
-text-decoration: underline;
-text-transform: uppercase;
+
 }
 ul{
     font-size: 40px;
@@ -129,6 +124,8 @@ list-style: none;
 border: 2px dashed purple;
 background-color: grey;
 margin-bottom: 20px;
+display: inline-block;
+font-size: 30px;
     }
     .menu-item:last-child {
 margin-bottom: 0px;
@@ -144,3 +141,27 @@ margin-bottom: 0px;
             .menu-item:nth-child(n + 2){
                 font-weight: bold;
             }
+            .bloco-inicial{  
+font-size: 50px;
+background-color: #c68d04;
+display: block;
+margin-bottom: 20px;
+display:block;/* por padrão div é block*/
+width: 600px ;
+
+            }
+.span-inicial {
+font-size: 40px;
+font-family: arial;
+color: rgb(255, 238, 0);
+text-decoration: underline;
+text-transform: uppercase;
+display: inline-block /*por padrão span é inline*/
+width: 50px;/*ignorado por elemento inline*/
+heigth: 50px;
+background-color:#768276; 
+}
+.bloco-escondido{
+display: inline-block;
+
+}
