@@ -3,17 +3,24 @@
     box-sizing: border-box;
 }
  /*FORMATACAO DOS TITULOS*/
- h2{
+
+ html{ 
+     font-size:16px ;
+     }
+     body{
+margin: 0;
+     }
+ /*h2{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     text-align: center;
     border: 3px solid blue;
     width: 50%;
-}
-p{
+}*/
+/*p{
     background-color:black;
     color: white;
-}
+}*/
 
 }
 ul{
@@ -195,4 +202,96 @@ padding-left: 40px;
 margin: 10px;
 border-top: 10px solid green;
 border-bottom: 4px dashed green;
+}
+.wrapper{ 
+    /*como esse elemento é uma div é por padrão display block*/
+    display:block;
+    background-color: #768076;
+    font-size:1.5rem; 
+    width: 40rem;
+    margin: 0 auto;
+}
+.wrapper p{ 
+    margin-top: 0;
+}
+.wrapper .imagem-principal{
+float: left;
+/*border: 10px solid magenta;*/
+margin-right: 10px;
+margin-bottom: 10px;
+}
+
+.wrapper .paragrafo-clear{
+/*clear: both;*/
+
+}
+.wrapper .imagem-direita{
+    float: right;
+}
+.wrapper::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.wrapper-2{
+    background-color: #f0ebb0;
+    font-size:1.5rem; 
+    width: 56rem;
+    margin: 20px auto;
+}
+
+.wrapper-2::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.box-1{
+    height: 200px;
+    width: 33%;
+}
+.red {
+background-color: red;
+float: right;
+ }
+.blue {
+background-color: blue;
+float: right;
+/*margin-left:30px;*/
+}
+.green {
+background-color: green;
+float: right;
+}
+.wrapper-3{
+    background-color: #f0ebb0;
+    font-size:1.5rem; 
+    width: 56rem;
+    margin: 20px auto;
+}
+
+.wrapper-3::after{
+    content: '';
+    display: table;
+   clear: both;
+}
+.servico{
+    border:1px solid blue;
+    width: 31%;
+    float: left;
+    min-height: 200px;
+    margin: 0 1%;
+    padding:0 1%;
+}
+.wrapper-4{
+    border:2px solid blue;
+    padding: 20px;
+    margin-top:40px;
+    position: relative;
+}
+.filho{
+    position: fixed;
+    background-color: red;
+    padding: 20px;
+    bottom: 20px;
+    right:30px;
 }
